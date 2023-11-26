@@ -4,7 +4,9 @@
   "description": "Pruebas automatizadas de la pagina OpenCart",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx cypress run",
+    "test1": "npx cypress open"
+
   },
   "keywords": [
     "automation"
@@ -13,5 +15,9 @@
   "license": "ISC",
   "devDependencies": {
     "cypress": "^6.6.0"
+  },
+  "repository":{
+    "type": "git",
+    "url": "https://github.com/leos131181/testing_OpenCart_Cypress"
   }
 }
